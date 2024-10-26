@@ -26,6 +26,7 @@
                 placeholder="inserisci l'immagine di copertina">
             @error('src')
                 <div class="alert alert-danger mt-1">
+                    Errore src: {{ $message }}
                 </div>
             @enderror
         </div>
